@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="uH;s[)1(}a!.9L6iYUq|">JUEGO</variable></variables><block type="pxt-on-start" id="hH7#2de?)g08Nn6PcH2b" x="0" y="0"></block><block type="device_forever" id="*;0?KpK8J?/K:QCI|k1?" x="324" y="48"></block><block type="device_gesture_event" id="%$@Xs[],gv-]M#R+?EfJ" x="673" y="51"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id=",y].MMDupj-}12_@Ipfm"><field name="VAR" id="uH;s[)1(}a!.9L6iYUq|">JUEGO</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="[iWX-|J,tFVb~8T(MLB`"><value name="min"><shadow type="math_number" id="pIuFoSXx?c0EO+3Furq7"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="o]b]aV//-?=lbTvFP;2w"><field name="NUM">2</field></shadow></value></block></value><next><block type="controls_if" id="cP0wF=s/ZQ30jZMJNgE6"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="`$USa$-Ufcd$D^pLBh}v"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="gEc);qm6]e2vr0dX7|N:"><field name="VAR" id="uH;s[)1(}a!.9L6iYUq|">JUEGO</field></block></value><value name="B"><shadow type="math_number" id="79+XVcjACj!n#VM=pfch"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id=".`MoTkRh#_CMJP]DA-4n"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="vb]#_;^dokY!pqX=}mYU"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="f0O]Wi6brfaa1NiT*:|d"><field name="VAR" id="uH;s[)1(}a!.9L6iYUq|">JUEGO</field></block></value><value name="B"><shadow type="math_number" id="lFs~l=30,Rp.Syj6Et9U"><field name="NUM">1</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="FxhRx$bd|%lN~k|*$|Ao"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="basic_show_icon" id="sA4/:)mgS`BVZPofVwUY"><field name="i">IconNames.Scissors</field></block></statement></block></next></block></statement></block></xml>
